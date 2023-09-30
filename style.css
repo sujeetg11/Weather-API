@@ -19,7 +19,10 @@ body{
     width: 400px;
     padding: 28px;
     background-color: white;
-    border-radius: 12px;
+    /* border-radius: 12px; */
+    border-radius: 29px;
+background: linear-gradient(0deg, #FFF 0%, rgba(255, 255, 255, 0.95) 100%);
+box-shadow: 0px 42px 250px 27px rgba(255, 255, 255, 0.32);
 
 }
 
@@ -60,7 +63,7 @@ body{
 }
 
 .weather-body{
-    display: flex;
+    display: none;
     justify-content: center;
     align-items: center;
     flex-direction: column;
@@ -130,4 +133,22 @@ body{
 .text span{
     font-size: 20px;
     font-weight: 700;
+}
+
+.location-not-found{
+    margin-top: 20px;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.location-not-found h1{
+    font-size: 20px;
+    color: #6b6b6b;
+    margin-block-end: 15px;
+}
+
+.location-not-found img{
+    width: 80%;
 }
